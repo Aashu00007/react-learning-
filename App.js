@@ -1,10 +1,11 @@
-
+import React from "react";
+import ReactDOM from "react-dom/client";
     //  first episode inception  
     const heading = React.createElement("h1",{
         // yha par attributes dete he 
         id : "heading" , xyz: "abc"
     }, "Hello world from React00 ");
-    console.log(heading);
+    
     //  yha se ye react element de rha he ..ye object he
     const root = ReactDOM.createRoot(document.getElementById("root"));
     root.render(heading);
